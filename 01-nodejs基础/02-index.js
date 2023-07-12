@@ -1,0 +1,5 @@
+let test=require("./02-a")
+let {fun1,fun2}=require("./02-b")
+fun1()
+fun2()
+test()

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>用户： <%= username %>，你好</p>
+    <p><%- test %></p>
+    <p><%= test %></p>
+    <ul>
+      <% for(var i=0;i<newsArr.length;i++){ %>
+      <li><%= newsArr[i] %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
